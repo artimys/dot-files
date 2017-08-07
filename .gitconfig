@@ -1,0 +1,23 @@
+[user]
+	name = Arturo Simon
+	email = artysimon@gmail.com
+[color]
+	ui = true
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[push]
+	default = simple

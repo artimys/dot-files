@@ -1,0 +1,30 @@
+# Rails project
+#
+# Ignoring OS specific files are found in .gitignore_global
+#
+
+
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and tempfiles
+/log/*
+!/log/.keep
+/tmp
+
+# Byebug log
+.byebug_history
+
+# Ignore yml files
+config/database.yml
+config/redis.yml
+config/memcached.yml
+
+# Ignore public/uploads folder (used in carrierwave tmp uploads)
+/public/uploads
+
+# Ignore compiled Asset Pipeline files
+/public/assets
+
+# Ignore export - product data download
+/public/export
