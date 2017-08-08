@@ -8,11 +8,12 @@
 
 
 ########## ALIAS COMMANDS ##########
-# 1) StarT postgres manually instead of using brew service
+# 1) Start postgres/redis manually instead of using brew service
 alias psqlgo='pg_ctl -D /usr/local/var/postgres start'
+alias redisgo='redis-server /usr/local/etc/redis.conf'
 
 # 2) Reboot pow and rails app
-alias powrestart='touch ~/.pow/restart.txt && touch tmp/restart.txt'
+alias restartapp='touch ~/.pow/restart.txt && touch tmp/restart.txt'
 
 # 3) Reload bash instead of kill terminal
 alias reloadbash='source ~/.bash_profile'

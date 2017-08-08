@@ -19,4 +19,9 @@ git config --global core.excludesfile '~/.gitignore_global' # be sure to create 
 Tailored for a Rails app.
 
 ### .bash_profile
-A few alias commands that manually starts up postgres, pow, reload bash and add branch name to terminal prompt.
+A few alias commands that manually starts up:
+- postgres
+- redis
+- pow
+- reload bash
+- add branch name to terminal prompt
