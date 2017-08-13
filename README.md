@@ -38,6 +38,15 @@ git config --global core.excludesfile '~/.gitignore_global' # be sure to create 
 
 
 
+### rvm
+Place files in root project folder. Modify ruby version or gemset as needed.
+
+``` sh
+project-folder/.ruby-version
+project-folder/.ruby-gemset
+```
+
+
 
 ### .bash_profile
 A few alias commands that manually starts up:
