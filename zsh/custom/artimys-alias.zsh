@@ -11,12 +11,8 @@ alias restartapp='touch ~/.pow/restart.txt && touch tmp/restart.txt'
 alias reloadz='source ~/.zshrc'
 
 # Change directory to rails app and rvm environment
-alias fsisummit='cd ~/Documents/Rails/Summit-2016 && rvm use ruby-2.3.1-production@engines2016'
-alias fsiaccucold='cd ~/Documents/Rails/AccuCold-2016 && rvm use ruby-2.3.1-production@engines2016'
-
-# Personal rails app and rvm env
-alias artimys='cd ~/Documents/Personal/artimys && rvm use ruby-2.3.1-personal'
-alias melandarty='cd ~/Documents/Personal/mel_and_arty && rvm use ruby-2.3.1-personal'
+alias fsi='rvm use ruby-2.3.1-production@engines2016 && cd ~/Documents/Rails/ && ls'
+alias personal='rvm use ruby-2.3.1-personal && cd ~/Documents/Personal/ && ls'
 
 alias zshrc='st ~/.zshrc'
 alias l='ls -lFh'

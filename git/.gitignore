@@ -1,13 +1,23 @@
 # Ignoring OS specific files are found in .gitignore_global
+desktop.ini
+.DS_Store
+
 
 /.bundle
 /log/*
 !/log/.keep
 /tmp
-.byebug_history
 config/database.yml
 config/redis.yml
 config/memcached.yml
+/db/*.sqlite3
+/db/*.sqlite3-journal
 /public/uploads
 /public/assets
 /public/export
+
+.byebug_history
+.powenv
+.rvmrc
+.ruby-version
+.ruby-gemset

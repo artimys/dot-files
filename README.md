@@ -8,14 +8,16 @@ Uses the oh-my-zsh framework.
 
 ``` sh
 # place files from zsh folder to oh-my-zsh custom folder.
-~/.oh-my-zsh/custom
+~/.oh-my-zsh/custom                                 # installing oh-my-zsh generates this folder
+~/.oh-my-zsh/custom/artimys.zsh
+~/.oh-my-zsh/custom/artimys-alias.zsh
 ```
 
 
 
-### Git
+### git
 
-```
+``` sh
 # place files in home folder
 ~/.gitconfig                    # global git configuration
 ~/.gitignore_global
@@ -24,7 +26,7 @@ Uses the oh-my-zsh framework.
 ~/.ssh/config
 ```
 
-```sh
+``` sh
 git config --global user.email "email@gmail.com"
 git config --global user.name "full name"
 git config --global color.ui true
@@ -43,4 +45,4 @@ A few alias commands that manually starts up:
 - redis
 - pow
 - reload bash
-- add branch name to terminal prompt
+- add git branch name to terminal prompt
