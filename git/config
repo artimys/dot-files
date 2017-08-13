@@ -1,0 +1,11 @@
+Host bitbucket.org
+    IdentityFile ~/.ssh/bitbucket
+
+Host github.com
+    IdentityFile ~/.ssh/github
+
+Host tunnel
+    HostName ec2-xxxxxxxx.compute-1.amazonaws.com
+    User deploy
+    IdentityFile ~/.ssh/private-key
+    LocalForward 5434 127.0.0.1:5432

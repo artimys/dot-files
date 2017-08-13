@@ -1,0 +1,13 @@
+# Ignoring OS specific files are found in .gitignore_global
+
+/.bundle
+/log/*
+!/log/.keep
+/tmp
+.byebug_history
+config/database.yml
+config/redis.yml
+config/memcached.yml
+/public/uploads
+/public/assets
+/public/export

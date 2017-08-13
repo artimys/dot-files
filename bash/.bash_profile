@@ -18,8 +18,6 @@ alias restartapp='touch ~/.pow/restart.txt && touch tmp/restart.txt'
 # 3) Reload bash instead of kill terminal
 alias reloadbash='source ~/.bash_profile'
 
-########## END ALIAS ##########
-
 
 
 
