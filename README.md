@@ -27,6 +27,7 @@ Uses the oh-my-zsh framework.
 ```
 
 ``` sh
+# Useful config commands
 git config --global user.email "email@gmail.com"
 git config --global user.name "full name"
 git config --global color.ui true
@@ -55,3 +56,24 @@ A few alias commands that manually starts up:
 - pow
 - reload bash
 - add git branch name to terminal prompt
+
+
+
+### iTerm2
+Enable shortcut keys on profile to allow skipping words (backwards and forward)
+- Left Option key act as: ```+Esc```
+
+Skip word backwards:
+- Keyboard Shortcut: ⌥←
+- Action: Send Escape Sequence
+- Esc + b
+
+Skip word forward:
+- Keyboard Shortcut: ⌥→
+- Action: Send Escape Sequence
+- Esc + f
+
+
+### Message of the Day (motd)
+Modify the file below with a fun message that displays one time on a new shell session.
+```sudo pico /etc/motd```
