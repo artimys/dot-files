@@ -38,6 +38,7 @@ git config --global core.excludesfile '~/.gitignore_global' # be sure to create 
 
 ### ssh
 ```
+# Used to manage multiple ssh keys
 # modify config based on SSH keys
 ~/.ssh/config
 ```
