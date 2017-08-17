@@ -3,6 +3,7 @@
 # Start postgres/redis manually instead of using brew service
 alias psqlgo='pg_ctl -D /usr/local/var/postgres'    # psqlgo (start|stop|restart)
 alias redisgo='redis-server /usr/local/etc/redis.conf'
+alias memgo='/usr/local/opt/memcached/bin/memcached'
 
 # Reboot pow and rails app
 alias restartapp='touch ~/.pow/restart.txt && touch tmp/restart.txt'
