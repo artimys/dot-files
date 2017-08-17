@@ -4,10 +4,8 @@ Host bitbucket.org
 Host github.com
     IdentityFile ~/.ssh/github
 
-# same as ssh -L 5434:127.0.0.1:5432 deploy@ec2-xxxxxxxx.compute-1.amazonaws.com
 Host tunnel
     HostName ec2-xxxxxxxx.compute-1.amazonaws.com
     User deploy
     IdentityFile ~/.ssh/private-key
     LocalForward 5434 127.0.0.1:5432
-
