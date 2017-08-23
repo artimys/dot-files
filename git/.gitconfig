@@ -5,7 +5,7 @@
 	ui = true
 [color "branch"]
 	current = yellow reverse
-	local = yellow
+ 	local = yellow
 	remote = green
 [color "diff"]
 	meta = yellow bold
@@ -13,11 +13,13 @@
 	old = red bold
 	new = green bold
 [color "status"]
-	added = green
-	changed = yellow
-	untracked = cyan
+ 	added = green
+  	changed = yellow
+  	untracked = cyan
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore_global
 [push]
 	default = simple
+[alias]
+	lg = log --oneline --decorate --all --graph
