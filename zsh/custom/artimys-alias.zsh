@@ -20,3 +20,6 @@ alias l='ls -lFh'
 alias la='ls -lAFh'
 alias lr='ls -tRFh'
 
+# Rails shortcusts
+alias resqw="bundle exec rake resque:work QUEUE='*'"
+alias resqs='bundle exec rake resque:scheduler'
