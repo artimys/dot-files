@@ -1,0 +1,27 @@
+{
+	// THEME / FILE TABS
+	"default_encoding": "UTF-8",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+	"theme": "Soda Dark.sublime-theme",
+	"soda_classic_tabs": false,
+	"show_tab_close_buttons": false,
+	"highlight_modified_tabs": true,
+	"fold_buttons": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+
+	// MISC
+	"font_size": 11.0,
+	"find_selected_text": true,
+	"highlight_line": true,
+
+	// TAB SPACING / WHITE-SPACE
+	// The number of spaces a tab is considered equal to
+	"tab_size": 4,
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"draw_white_space": "all",
+	"word_wrap": false
+}

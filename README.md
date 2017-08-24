@@ -80,6 +80,9 @@ Skip word forward:
 - Esc + f
 
 
+### sublime text 2
+Sublime user preferences
+
 ### Message of the Day (motd)
 Modify the file below with a fun message that displays one time on a new shell session.
 ```sudo pico /etc/motd```
