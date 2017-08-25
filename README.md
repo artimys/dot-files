@@ -83,6 +83,11 @@ Skip word forward:
 ### sublime text 2
 Sublime user preferences
 
+
+### rubygems
+Place file at ```~/.gemrc```. This will prevent rdocs from being installed for all future gem installs.
+
+
 ### Message of the Day (motd)
 Modify the file below with a fun message that displays one time on a new shell session.
 ```sudo pico /etc/motd```
