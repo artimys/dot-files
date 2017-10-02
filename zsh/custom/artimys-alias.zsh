@@ -24,4 +24,4 @@ alias l='ls -lFh'
 alias la='ls -lAFh'
 alias lr='ls -tRFh'
 alias h='fc -li 100'
-
+alias flushdns='sudo killall -HUP mDNSResponder'
