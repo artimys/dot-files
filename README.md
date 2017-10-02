@@ -81,7 +81,35 @@ Skip word forward:
 
 
 ### sublime text 2
-Sublime user preferences
+1) Install SublimeText 2
+2) Install 'Package Control' using console
+3) Package Control > Install Package >
+    - Theme - Soda
+    - Tomorrow Color Schemes
+    - CoffeeScript
+    - Syntax Highlighting for Sass
+    - ~~SideBarEnhancements~~
+    - SublimeERB
+4) Preferences > Settings - User
+    - Paste my user_preferences
+5) Preferences > Key Bindings - Users
+    - Paste my key_bindings (for SublimeERB)
+
+
+### sublime text 3
+1) Install SublimeText 3
+2) Install 'Package Control' using console
+3) Package Control > Install Package >
+    - Theme - Soda
+    - Tomorrow Color Schemes
+    - ~~CoffeeScript~~
+    - Syntax Highlighting for Sass
+    - SideBarEnhancements
+    - SublimeERB
+4) Preferences > Settings - User
+    - Paste my user_preferences
+5) Preferences > Key Bindings - Users
+    - Paste my key_bindings (for SublimeERB)
 
 
 ### rubygems

@@ -19,7 +19,8 @@ alias restartapp='touch ~/.pow/restart.txt && touch tmp/restart.txt'
 alias reloadbash='source ~/.bash_profile'
 
 
-
+# Display timestamp on history command
+export HISTTIMEFORMAT="%m/%d/%y %T "
 
 
 # Git branch in prompt

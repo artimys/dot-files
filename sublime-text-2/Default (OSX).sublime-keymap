@@ -1,0 +1,6 @@
+// Place in keybinding file
+
+[
+	// SublimeERB
+	{ "keys": ["command+shift+."], "command": "erb" }
+]
