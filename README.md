@@ -98,11 +98,11 @@ Skip word forward:
 
 ### sublime text 3
 1) Install SublimeText 3
-2) Install 'Package Control' using console
+2) Install 'Package Control' using console (cmd + shift + p)
 3) Package Control > Install Package >
     - Theme - Soda
     - Tomorrow Color Schemes
-    - ~~CoffeeScript~~
+    - Better Coffeescript
     - Syntax Highlighting for Sass
     - SideBarEnhancements
     - SublimeERB
