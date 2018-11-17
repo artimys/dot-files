@@ -1,23 +1,38 @@
 // SublimeText3
 
+// using tomorrow-night-bright theme
 {
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "Soda Dark.sublime-theme"
+}
+
+// settings with Seti-UI theme
+{
+	"Seti_accent_purple_tab": true,
+	"Seti_lime_statusbar": true,
+	"Seti_seablue_scrollbar": true,
+	"Seti_tabs_small": true,
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_encoding": "UTF-8",
-	"show_encoding": true,
 	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
 	"find_selected_text": true,
 	"fold_buttons": true,
-	"font_size": 12.0,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"overlay_scroll_bars": "enabled",
+	"show_encoding": true,
 	"soda_classic_tabs": false,
 	"tab_size": 4,
-	"enable_tab_scrolling": false,
+	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false

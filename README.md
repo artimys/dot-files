@@ -102,6 +102,7 @@ Skip word forward:
 3) Package Control > Install Package >
     - Theme - Soda
     - Tomorrow Color Schemes
+    - Seti-UI (https://packagecontrol.io/packages/Seti_UI)
     - Better Coffeescript
     - Syntax Highlighting for Sass
     - SideBarEnhancements
