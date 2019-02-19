@@ -1,0 +1,45 @@
+"*":
+  "bracket-matcher": {}
+  core:
+    automaticallyUpdate: false
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "exception-reporting"
+      "go-to-line"
+      "language-c"
+      "language-clojure"
+      "language-csharp"
+      "language-go"
+      "language-make"
+      "grammar-selector"
+      "language-toml"
+      "language-typescript"
+      "metrics"
+      "language-php"
+      "language-perl"
+      "language-objective-c"
+      "language-mustache"
+      "open-on-github"
+      "link"
+      "language-rust-bundled"
+    ]
+    packagesWithSnippetsDisabled: []
+    telemetryConsent: "no"
+  editor:
+    fontSize: 15
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "c8b5f01e-f363-4fc7-9c0d-479cbc9550a0"
+  "file-icons":
+    coloured: false
+    tabPaneIcon: false
+  "git-diff":
+    showIconsInEditorGutter: true
+  "project-manager": {}
+  tabs: {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome: {}
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

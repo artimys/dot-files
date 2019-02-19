@@ -80,6 +80,12 @@ Skip word forward:
 - Esc + f
 
 
+### Atom
+Packages to install
+1) erb-snippets
+2) file-icons
+3) project-manager
+
 ### sublime text 2
 1) Install SublimeText 2
 2) Install 'Package Control' using console
