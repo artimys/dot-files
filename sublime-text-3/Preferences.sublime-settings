@@ -1,38 +1,47 @@
 // SublimeText3
 
 // using tomorrow-night-bright theme
-{
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
-	"theme": "Soda Dark.sublime-theme"
-}
+"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+"theme": "Soda Dark.sublime-theme",
 
-// settings with Seti-UI theme
+// predawn
+"color_scheme": "Packages/Predawn/predawn.tmTheme",
+"theme": "predawn-DEV.sublime-theme",
+
+// seti
+"color_scheme": "",
+"theme": "Seti.sublime-theme",
+"Seti_accent_purple_tab": true,
+"Seti_lime_statusbar": true,
+"Seti_seablue_scrollbar": true,
+"Seti_tabs_small": true,
+
+// settings json, cmd + ,
 {
-	"Seti_accent_purple_tab": true,
-	"Seti_lime_statusbar": true,
-	"Seti_seablue_scrollbar": true,
-	"Seti_tabs_small": true,
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"default_encoding": "UTF-8",
-	"draw_white_space": "all",
+	"draw_white_space": "selection",
 	"enable_tab_scrolling": false,
 	"find_selected_text": true,
 	"fold_buttons": true,
-	"font_size": 13,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"overlay_scroll_bars": "enabled",
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_medium": true,
 	"show_encoding": true,
-	"soda_classic_tabs": false,
 	"tab_size": 4,
-	"theme": "Seti.sublime-theme",
+	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false

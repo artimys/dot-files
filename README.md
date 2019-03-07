@@ -106,14 +106,15 @@ Packages to install
 1) Install SublimeText 3
 2) Install 'Package Control' using console (cmd + shift + p)
 3) Package Control > Install Package >
-    - Theme - Soda
-    - Tomorrow Color Schemes
-    - Seti-UI (https://packagecontrol.io/packages/Seti_UI)
+    - Theme - Soda (no longer used)
+    - Tomorrow Color Schemes (no longer used)
+    - Seti-UI (https://packagecontrol.io/packages/Seti_UI) (no longer used)
+    - Predawn
     - Better Coffeescript
     - Syntax Highlighting for Sass
     - SideBarEnhancements
     - SublimeERB
-4) Preferences > Settings - User
+4) Preferences > Settings - User (cmd+,)
     - Paste my user_preferences
 5) Preferences > Key Bindings - Users
     - Paste my key_bindings (for SublimeERB)
